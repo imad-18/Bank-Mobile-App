@@ -82,15 +82,15 @@ This project was developed as part of the Mobile Development (TP3) coursework to
 
 ## ⚙️ How to Run
 
-### 1. Clone the repository:
+**1. Clone the repository:**
 
 ```bash
 git clone https://github.com/yourusername/cloud-bank.git
 ```
 
-### 2. Open the project in Android Studio
+**2. Open the project in Android Studio**
 
-### 3. Build and run it on an Android Emulator or physical device
+**3. Build and run it on an Android Emulator or physical device**
 
 ---
 
@@ -99,3 +99,6 @@ git clone https://github.com/yourusername/cloud-bank.git
 ### Imad Labrini
 Android Developer & Software Engineering Student
 
+---
+## Under the supervision of:
+### Dr. El Gahi Youssef
