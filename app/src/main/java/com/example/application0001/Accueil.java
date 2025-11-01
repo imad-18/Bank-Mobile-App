@@ -3,6 +3,7 @@ package com.example.application0001;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Button;
 import android.widget.ListView;
 import android.widget.TextView;
 
@@ -20,6 +21,7 @@ public class Accueil extends AppCompatActivity {
     // Array of strings...
     ListView simpleList;
     private DatabaseHelper databaseHelper; // Déclaration du Helper
+    private Button mapButton;
 
     @SuppressLint("MissingInflatedId")
     @Override
@@ -66,6 +68,11 @@ public class Accueil extends AppCompatActivity {
             intent.putExtra("tr_price", transactionPrice);
             intent.putExtra("op_date", transactionDate);
 
+            startActivity(intent);
+        });
+        mapButton = findViewById(R.id.map_btn);
+        mapButton.setOnClickListener(v -> {
+            Intent intent = new Intent(Accueil.this, MapsActivity.class);
             startActivity(intent);
         });
     }

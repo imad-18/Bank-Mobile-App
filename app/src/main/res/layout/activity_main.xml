@@ -113,5 +113,19 @@
 
     </TableRow>
 
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="27dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
+
+    </TableRow>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="154dp"
+        app:srcCompat="@drawable/banker" />
+
 
 </LinearLayout>

@@ -56,7 +56,7 @@
             android:layout_marginEnd="10dp"
             android:layout_marginRight="10dp"
             android:contentDescription="@string/app_name"
-            android:src="@drawable/card" />
+            app:srcCompat="@drawable/card" />
 
         <TextView
             android:id="@+id/item_name"
